@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <h2 class="text-5xl text-center mt-4" >Lets Get some <span class="text-violet-700">Moneeeeeey!!</span></h2>
+    </header>
+    <main>
+        <section class="mt-12">
+            <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto text-white text-3xl text-center">
+                <div class="bg-green-600 p-8 rounded-xl ">
+                    <h4>Deposite</h4>
+                    <h2>$00</h2>
+                </div>
+                <div class="bg-violet-600 p-8 rounded-xl">
+                    <h4>withdrew</h4>
+                    <h2>$00</h2>
+                </div>
+                <div class="bg-yellow-700 p-8 rounded-xl">
+                    <h4>Balance</h4>
+                    <h2>$1200</h2>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deposit & withdrew -->
+        <section class="mt-12">
+            <div class="grid grid-cols-2 gap-4 w-9/12 mx-auto text-white">
+                <div class="bg-green-600 p-8 rounded-xl ">
+                    <h4 class="text-3xl">Please Deposit</h4>
+                    <input class="mt-3 text-black text-2xl p-2 block" type="text" placeholder="Please deposit">
+                    <button class="mt-3 p-5 rounded-lg bg-amber-800 p-3">Deposit</button>
+                </div>
+                <div class="bg-violet-600 p-8 rounded-xl">
+                    <h4 class="text-3xl">Please withdrew</h4>
+                    <input class="mt-3 text-black text-2xl p-2 block" type="text" placeholder="Please  withdrew">
+                    <button class="mt-3 bg-amber-800 p-3">Withdrew</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
